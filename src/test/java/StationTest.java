@@ -201,6 +201,4 @@ public class StationTest {
 
         Assertions.assertEquals(expected, actual);
     }
-
-
 }

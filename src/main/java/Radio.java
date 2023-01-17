@@ -2,7 +2,7 @@ public class Radio {
     private int currentRadioStation;
     private int currentVolume;
 
-       public int getCurrentRadioStation() {
+    public int getCurrentRadioStation() {
         return currentRadioStation;
     }
 
@@ -40,7 +40,7 @@ public class Radio {
 
     public void prevStation() {
         if (currentRadioStation != 0) {
-           currentRadioStation--;
+            currentRadioStation--;
         } else {
             currentRadioStation = 9;
         }

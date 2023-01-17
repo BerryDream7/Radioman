@@ -117,7 +117,7 @@ public class VolumeTest {
     public void volume8() {
         Radio radio = new Radio();
 
-        radio.setCurrentVolume(25);
+        radio.setCurrentVolume(18);
 
         int expected = 0;
         int actual = radio.getCurrentVolume();
