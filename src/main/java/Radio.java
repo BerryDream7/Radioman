@@ -8,8 +8,8 @@ public class Radio {
         maxStation = 9;
     }
 
-    public Radio(int stationCount) {
-        maxStation = stationCount - 1;
+    public Radio(int stationsCount) {
+        maxStation = stationsCount - 1;
     }
 
     public int getCurrentRadioStation() {
